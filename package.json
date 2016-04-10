@@ -1,0 +1,26 @@
+{
+  "name": "jr",
+  "version": "0.1.0",
+  "description": "Barebones URL shortener based on Node and redis.",
+  "author": "Malone Hedges (https://malone.io)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src",
+    "watch": "nodemon src"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "redis": "^2.5.3",
+    "short-id-gen": "^1.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malonehedges/jr.git"
+  },
+  "license": "MIT"
+}

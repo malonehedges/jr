@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  .columns.py-5
+    h1.text-center jr.
+
+  .columns.pb-4
+    .one-half.centered
+      form(method='post')
+        .input-group
+          input(type='url', placeholder='Long URL Here', class='form-control', name='url')
+          span.input-group-button
+            button.btn.btn-primary
+              span Shorten
+
+  if url
+    .columns.text-center
+      h3#instructions Click the link below to copy...
+      p#link.lead(data-clipboard-text=url)= url
+
+    script.
+      (function (document, Clipboard) {
+        var instructionsElem = document.getElementById('instructions')
+        var clipboard = new Clipboard('#link')
+
+        clipboard.on('success', function () {
+          instructionsElem.innerText = 'Copied!'
+        })
+        
+        clipboard.on('error', function () {
+          instructionsElem.innerText = 'Now press Command+C to copy...'
+        })
+      })(document, Clipboard)
