@@ -1,1 +1,1 @@
-web: forever start src/index.js
+web: npm run start

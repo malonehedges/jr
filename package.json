@@ -5,13 +5,12 @@
   "author": "Malone Hedges (https://malone.io)",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src",
-    "watch": "nodemon src"
+    "start": "node src/index.js",
+    "watch": "nodemon src/index.js"
   },
   "dependencies": {
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
-    "forever": "^0.15.1",
     "jade": "^1.11.0",
     "redis": "^2.5.3",
     "short-id-gen": "^1.1.2"
