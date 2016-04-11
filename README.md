@@ -4,7 +4,7 @@
 
 This was a fun random project. I ended up writing all the code in about two hours with some breaks in between. It's about as barebones as it could be and is very fast.
 
-My favorite part about *jr.* is any website you point at it becomes a URL shortener. The URLs are based on the request. In development, you'll get a URL back something along the lines of `http://localhost/j3nM2b`, while in production `http://u.malone.io/j3nM2b`.
+My favorite part about *jr.* is any website you point at it becomes a URL shortener. The URLs are based on the request. In development, you'll get a URL back something along the lines of `http://localhost/j3nM2b`, while in production `http://jr.malone.io/j3nM2b`.
 
 ## Technology used
 
