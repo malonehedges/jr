@@ -10,6 +10,8 @@ My favorite part about *jr.* is any website you point at it becomes a URL shorte
 
 Thanks to [Sunil Arora](http://sunilarora.org/) for his [article](http://sunilarora.org/url-shortener-service-using-redis/) about his Python URL shortener service using redis. It was helpful to have as a guide for my first project using redis.
 
+[François-G. Ribreau](https://twitter.com/FGRibreau) for the feature on [RedisWeekly](http://redisweekly.com/). Happy to be in good company!
+
 ## Technology used
 
  * [Primer](http://primercss.io/) for CSS styling
