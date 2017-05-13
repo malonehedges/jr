@@ -1,6 +1,6 @@
 {
   "name": "jr",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Barebones URL shortener based on Node and redis.",
   "author": "Malone Hedges (https://malone.io)",
   "main": "src/index.js",
