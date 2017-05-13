@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  .columns.py-5
+    h1.text-center This URL shortener site is discontinued
+    h2.text-center Please take this time update anywhere this link is stored to avoid loss of service in the future.
+
+  if url
+    .columns.text-center
+      h3 Click the link below to continue...
+      p#link.lead= url
+
+    script.
+      (function (window, document) {
+        var linkElem = document.getElementById('link')
+        linkElem.addEventListener('click', function () {
+            window.location = '#{url}'
+        })
+      })(window, document)

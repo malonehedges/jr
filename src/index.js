@@ -55,7 +55,10 @@ app.get('/:shortId', function (req, res) {
       return res.status(404).render('404')
     }
 
-    res.redirect(response)
+    return res.render('redirect', {
+        url: response
+    })
+
     client.incr('clicks:' + urlId + ':url')
   })
 })
